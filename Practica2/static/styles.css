@@ -1,0 +1,226 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 700px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: serif;
+
+}
+
+.contenedorinicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 500px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px; 
+
+}
+
+.contenedorinicio2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 120px; 
+  width: 500px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+
+.round_img{
+  border-radius: 10px;
+}
+
+
+img.img-s {
+  width: 100px;
+  height: 100px;
+}
+
+img.img-m {
+  width: 200px;
+  height: 200px;
+}
+
+img.rounded {
+  border-radius: 50%;
+}
+
+img.half-rounded {
+  border-radius: 50% 50% 0 0;
+}
+
+img.img-l {
+  width: 300px;
+  height: 300px;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+}
+
+.elementContainer {
+  overflow: hidden;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  width: 250px;
+  background-color: #cae5ff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.dogContainer {
+  overflow: hidden;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  background-color: #bbffdc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+.body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://smartercity.com.au/wp-content/uploads/SmartCity_illustartion_animated_fixed_new.gif')
+}
+
+
+.mainTitle {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  color:rgb(57, 57, 57);
+  background-color: #f9f9f9;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-decoration: none; 
+}
+
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+.button:active {
+  background-color: #003366; 
+}
+
+
+.button:disabled {
+  background-color: #cccccc; 
+  color: #999999; 
+  cursor: not-allowed;
+}
+
+.boton {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-left: 10px;
+}
+.boton2 {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  color: #fff;
+  background-color: #45ff48; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-left: 10px;
+}
+.boton2:hover {
+  background-color: #009931;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+.textbox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; 
+  background-color: #cae5ff;
+  margin-left: 5px;
+}
+.textbox2 {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; 
+  background-color: #bbffdc;
+  margin-left: 5px;
+}
+
+.textbox:focus {
+  border-color: #007bff; 
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
