@@ -1,0 +1,84 @@
+.maincontainer{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  height: 100%;
+
+}
+.header1{
+  background-color: #0a66c2;
+  color: white;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobcell{
+  border-style: solid;
+  padding: 10px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(255, 255, 255);
+  height:fit-content;
+  word-break: break-all;
+  transition-duration: 1s;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.jobcell:hover{
+  background-color: rgb(165, 219, 255);
+  cursor: pointer;
+}
+
+.header2{
+  color: rgb(25,112,198);
+  font-size: 14px;
+}
+
+.container1{
+  display: flex;
+  height: 100%;
+  width: 500px;
+  background-color: rgb(177, 177, 255);
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 0px;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttoncontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.linkbutton{
+  border-radius: 20px;
+  background-color: #0a66c2;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  padding: 10px,20px;
+  height: 50px;
+}
+.container2content{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.imagecontainer{
+  width: 14%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
